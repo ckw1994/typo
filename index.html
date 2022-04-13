@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>신년인사</title>
+    <style>
+        @font-face {
+            font-family: "BMEULJIROTTF";
+            src: url(./font/BMEULJIROTTF.ttf);
+        }
+
+        body {
+
+          
+            font-family: "BMEULJIROTTF", "맑은 고딕", "명조체", serif, sans-serif;
+        }
+
+       
+        .container {
+           
+            width: 900px;
+            height: 1185px;
+            background-color: #ccc;
+            background-image: url(./img/papaer-texture.jpg);
+
+        }
+
+        .f-text {
+
+            font-size: 70px;
+            position: absolute;
+            width: 56px;
+            height: 560px;
+            left: 547px;
+            top: 110px;
+            line-height: 70px;
+            text-align: center;
+            text-shadow: 8px 8px 4px rgba(0, 0, 0, 0.25);
+            ;
+
+        }
+
+        .Seal {
+            background-image: url(./img/Seal.svg);
+            position: absolute;
+            width: 65px;
+            height: 54px;
+            left: 555px;
+            top: 750px;
+
+        }
+
+        .s-text {
+            font-size: 100px;
+            line-height: 115px;
+            text-align: right;
+            text-shadow: 8px 8px 4px rgba(0, 0, 0, 0.25);
+            position: absolute;
+            width: 115px;
+            height: 933px;
+            left: 663px;
+            top: 45px;
+        }
+
+        .복 {
+            font-size: 130px;
+            color: #EA3D32;
+            -webkit-text-stroke: 1px white;
+        }
+
+        .복:hover {
+            color: blue;
+            position: absolute;
+            transform: rotate (-5deg );
+
+        }
+
+        .받 {
+            color: white;
+        }
+
+        .어 {
+            color: #E1750B;
+        }
+
+        .tiger {
+            background-image: url(./img/t-2.svg);
+            position: absolute;
+            width: 500px;
+            height: 634.53px;
+            left: 10px;
+            top: 500px;
+            transform: rotate(-17.25deg);
+        }
+        .tiger:hover{
+            background-image: url(./img/t-2.svg);
+            position: absolute;
+            width: 500px;
+            height: 634.53px;
+            left: 10px;
+            top: 500px;
+            transform: rotate(-35deg);
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+    <div class="container">
+        <div class="tiger"></div>
+        <p class="f-text">2<br>
+            0<br>
+            2<br>
+            2<br>
+            -<br>
+            임<br>
+            인<br>
+            년</p>
+    </div>
+    <div class="Seal"></div>
+
+    <p class="s-text">
+        새 <br>
+        해<br>
+        <span class="복">복</span><br>
+        많<br>
+        이<br>
+        <span class="받">받</span><br>
+        <span class="어">어</span><br>
+        흥
+
+    </p>
+</div>
+</body>
+
+</html>
